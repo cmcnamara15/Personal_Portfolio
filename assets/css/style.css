@@ -99,6 +99,15 @@ color: var(--heliotrope);
     color: var(--ocean);
 }
 
+.aboutme img {
+        justify-content: right;
+        height:auto;
+        width: auto;
+        border-radius: 15px;
+        box-shadow: 10px 10px 5px #9dcde7;
+
+}
+
 /* .aboutme:hover {
     border-color: black;
     color:rgb(109, 10, 167);
@@ -167,6 +176,17 @@ color: var(--heliotrope);
 } */
 
 
+.footer {
+    text-align: center;
+    padding: 10px;
+    font-family: cursive;
+    background-color: #dbacea;
+    color: #2b99a7;
+}
+
+.footer a:hover {
+    color: gold;
+}
   @media screen and (max-width: 768px) {
     .main.card {
       width: 150%;
