@@ -35,11 +35,12 @@ body {
     font-size: 22px;
 }
 
-.header div:hover {
+.header a:hover {
     color:gold;
 }
 
 .header div ul li {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display:inline-block;
     margin-left: 25px;
 }
@@ -84,6 +85,7 @@ color: var(--heliotrope);
 
 .aboutme {
     /* margin-top: 45px; */
+    flex-direction: column;
     margin: 20px;
     height: 200px;
     padding: 20px;
@@ -91,8 +93,9 @@ color: var(--heliotrope);
     border-width: 2px;
     border-radius: 10px;
     border-color: #e866ec;
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
     color: var(--ocean);
 }
 
@@ -103,6 +106,7 @@ color: var(--heliotrope);
 
 .work, .contactme {
     margin-top: 25px;
+    flex-direction: column;
     height: 200px;
     margin: 20px;
     padding: 20px;
@@ -110,10 +114,10 @@ color: var(--heliotrope);
     border-width: 2px;
     border-radius: 10px;
     border-color: #e866ec;
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: var(--ocean);
-    
+    font-weight: bold;
 }
 
 .aboutme:hover, .work:hover, .contactme:hover {
@@ -162,8 +166,18 @@ color: var(--heliotrope);
         color: var(--ocean);
 } */
 
-  @media screen and (min-width: 992px) {
-    header {
-      width: 100%;
+
+  @media screen and (max-width: 768px) {
+    .main.card {
+      width: 150%;
     }
-}
+    .aside.sec_titles {
+        order: 1;
+    }
+
+
+    .header {
+      background: #d8604e;
+      color:yellow;
+    }
+  } 
