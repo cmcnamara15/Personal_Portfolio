@@ -166,16 +166,6 @@ color: var(--heliotrope);
     background: rgba(143, 143, 142, 0.3); 
     border: solid; 
   }  
-
-  /* .img:hover {
-        margin-right: 20px;
-        padding: 20px;
-        height: 100%;
-        font-family: cursive;
-        color: var(--ocean);
-} */
-
-
 .footer {
     text-align: center;
     padding: 10px;
@@ -188,13 +178,16 @@ color: var(--heliotrope);
     color: gold;
 }
   @media screen and (max-width: 768px) {
-    .main.card {
-      width: 150%;
+    main {
+        flex: 1 1 100%;
     }
-    .aside.sec_titles {
-        order: 1;
+    
+    aside {
+        order: 0;
+        margin-right: 0;
+        padding: 25px;
     }
-
+    
 
     .header {
       background: #d8604e;
