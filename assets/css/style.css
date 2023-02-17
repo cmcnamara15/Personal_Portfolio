@@ -11,6 +11,7 @@
 
 body {
     background-color: rgb(185, 221, 233);
+
 }
 
 .header {
@@ -84,7 +85,7 @@ color: var(--heliotrope);
     /* margin-top: 45px; */
     flex-direction: column;
     margin: 20px;
-    height: 200px;
+    height: 300px;
     padding: 20px;
     border: dotted;
     border-width: 2px;
